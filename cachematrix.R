@@ -25,7 +25,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## it calculates the matrix inverse and sets the value of the inverse in the cache.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
         inv <- x$getinv()
         if(!is.null(inv)){
                 # Verify the inv exists and is not NULL
